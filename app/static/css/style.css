@@ -1,1 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
 
+section.container{
+    height: 98vh;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.container .interace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container .txt h1{
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.container .txt h1 span{
+    color: #093c2d;
+    font-weight: 700;
+}
+
+.container .txt p {
+    font-size: 20px;
+    font-weight: 200;
+    margin: 20px 0;
+}

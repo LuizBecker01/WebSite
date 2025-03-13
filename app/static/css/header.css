@@ -1,12 +1,8 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-}
-
-body {
-  background-color: black;
 }
 
 .interace {
@@ -18,6 +14,9 @@ body {
 header {
   width: 100%;
   padding: 40px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 header .interace {
@@ -64,3 +63,4 @@ header .btn-contact button:hover {
   color: #000;
   background-color: #fff;
 }
+/* /Header Style */
