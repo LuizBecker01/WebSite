@@ -9,10 +9,10 @@ Botanic green
 *Variations of gradients*
 
 Degradê Linear Vertical (de cima para baixo)
-background: linear-gradient(to bottom, #093C2D, #3B6654, #63A593, #D8F2DC);
+background: linear-gradient(to bottom, #093C2D, #3B6654, #63A593;
 
 Degradê Linear Diagonal (da esquerda para a direita)
-background: linear-gradient(to right, #093C2D, #3B6654, #63A593, #D8F2DC);
+background: linear-gradient(to right, #093C2D, #3B6654, #63A593);
 
 Degradê Radial (circular)
 background: radial-gradient(circle, #D8F2DC, #63A593, #3B6654, #093C2D);

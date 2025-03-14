@@ -8,10 +8,24 @@
 }
 
 section.container{
-    height: 98vh;
-    background-image: url("../img/bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #093C2D, #3B6654, #63A593);
+    justify-content: center;
+    align-items: center;
+    display: flex;
     color: #fff;
+}
+
+section .interace{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    height: 33rem;
+    width: 45rem;
+    border-radius: 1rem;
+}
+
+.txt{
+    color: #093C2D;
 }
