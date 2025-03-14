@@ -6,8 +6,8 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
-section.container{
+/* style of section */
+section.container {
     min-height: 100vh;
     background: linear-gradient(to bottom, #093C2D, #3B6654, #63A593);
     justify-content: center;
@@ -15,17 +15,83 @@ section.container{
     display: flex;
     color: #fff;
 }
-
-section .interace{
+section .interace {
     background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;;
     height: 33rem;
-    width: 45rem;
+    width: 60rem;
     border-radius: 1rem;
 }
+/* /style of section */
 
-.txt{
+/* Style of infos */
+.infos {
     color: #093C2D;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 4rem; 
+    width: 92%;
+    height: 100%;
+    gap: 1rem;
 }
+.txt p {
+    color: #3B6654;
+    font-size: 1.25em;
+    line-height: 1.25rem;
+    text-align: left;
+    font-weight: 300;
+}
+/* /Style of infos */
+
+/* Style of buttons */
+.buttons-container {
+    margin-bottom: 200px;
+    display: flex; 
+    padding: 30px; 
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.buttons {
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.linha {
+    width: 2px;
+    height: 40px; 
+    background-color: #093C2D;
+}
+.btn-email {
+    display: inline-block;
+    background-color: #093C2D;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn-linkedin {
+    display: inline-block;
+    background-color: #093C2D;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn-email:hover {
+    background-color: #075E40;
+}
+.btn-linkedin:hover {
+    background-color: #075E40;
+}
+/* /Style of buttons */
