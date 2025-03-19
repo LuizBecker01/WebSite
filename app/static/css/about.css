@@ -6,3 +6,18 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+section.container{
+    height: 98vh;
+    background: linear-gradient(to bottom, #093C2D, #3B6654, #63A593);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.container .interace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
