@@ -30,19 +30,19 @@ section .interace {
 .infos {
     color: #093C2D;
     display: flex;
-    align-items: flex-start; 
-    justify-content: flex-start;
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
     flex-direction: column;
-    padding: 4rem; 
-    width: 95%;
-    height: 80%;
+    padding: 4rem;
+    width: 77%;
+    height: 85%;
     gap: 1rem;
 }
 .txt p {
     color: #3B6654;
     font-size: 1.25em;
     line-height: 1.25rem;
-    text-align: left;
+    text-align: center;
     font-weight: 300;
 }
 /* /Style of infos */
@@ -60,10 +60,10 @@ section .interace {
 .buttons {
     display: flex;
     width: 100%;
-    padding: 30px;
+    height: 100%;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 1.5rem;
 }
 .linha {
     width: 2px;
