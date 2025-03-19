@@ -34,8 +34,8 @@ section .interace {
     justify-content: flex-start;
     flex-direction: column;
     padding: 4rem; 
-    width: 92%;
-    height: 100%;
+    width: 95%;
+    height: 80%;
     gap: 1rem;
 }
 .txt p {
@@ -48,7 +48,7 @@ section .interace {
 /* /Style of infos */
 
 /* Style of buttons */
-.buttons-container {
+/* .buttons-container {
     margin-bottom: 200px;
     display: flex; 
     padding: 30px; 
@@ -56,7 +56,7 @@ section .interace {
     align-items: center;
     justify-content: center;
     gap: 30px;
-}
+} */
 .buttons {
     display: flex;
     width: 100%;
@@ -88,10 +88,34 @@ section .interace {
     border-radius: 5px;
     font-weight: bold;
 }
+/* .btn-intagram {
+    display: inline-block;
+    background-color: #093C2D;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+} */
+.btn-github {
+    display: inline-block;
+    background-color: #093C2D;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
 .btn-email:hover {
     background-color: #075E40;
 }
 .btn-linkedin:hover {
+    background-color: #075E40;
+}
+/* .btn-intagram:hover {
+    background-color: #075E40;
+} */
+.btn-github:hover {
     background-color: #075E40;
 }
 /* /Style of buttons */
