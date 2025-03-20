@@ -88,15 +88,6 @@ section .interace {
     border-radius: 5px;
     font-weight: bold;
 }
-/* .btn-intagram {
-    display: inline-block;
-    background-color: #093C2D;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-} */
 .btn-github {
     display: inline-block;
     background-color: #093C2D;
@@ -112,9 +103,6 @@ section .interace {
 .btn-linkedin:hover {
     background-color: #075E40;
 }
-/* .btn-intagram:hover {
-    background-color: #075E40;
-} */
 .btn-github:hover {
     background-color: #075E40;
 }
