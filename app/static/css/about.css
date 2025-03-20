@@ -20,7 +20,7 @@ section .interace {
     display: flex;
     justify-content: center;
     align-items: center;;
-    height: 30rem;
+    height: 31rem;
     width: 95%;
     border-radius: 1rem;
 }
@@ -45,15 +45,26 @@ section .interace {
 }
 /* /Style of txt */
 
+.components{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
 /* style of img */
 .foto {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 7px solid #fff;
     border-radius: 50%;
-    width: 20rem;
-    height: 20rem;
+    width: 17rem;
+    height: 17rem;
     overflow: hidden;
+    /* box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.3); */
 }
 .foto img {
     width: 100%;
@@ -61,18 +72,22 @@ section .interace {
     object-fit: cover;
 }
 /* /style of img */
-
+.p2{
+    color: #3B6654;
+    font-size: 1.1em;
+    font-weight: 300;
+    padding: 1rem 0 0 0;
+}
 /* style of buttons */
 .buttons {
     display: flex;
     flex-direction: column; 
     align-items: center;
     width: 100%;
-    gap: 1rem; 
+    gap: 0.7rem; 
     margin: 0; 
-    padding: 3.2rem;
+    padding: 2rem;
 }
-
 .buttons a {
     display: block;
     width: 100%; 
