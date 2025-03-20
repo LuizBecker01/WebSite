@@ -8,7 +8,7 @@
 }
 
 section.container{
-    height: 98vh;
+    height: 100vh;
     background: linear-gradient(to bottom, #093C2D, #3B6654, #63A593);
     background-repeat: no-repeat;
     background-size: cover;

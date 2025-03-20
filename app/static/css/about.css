@@ -6,18 +6,135 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
-section.container{
-    height: 98vh;
+/* style of section */
+section.container {
+    min-height: 100vh;
     background: linear-gradient(to bottom, #093C2D, #3B6654, #63A593);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-}
-.container .interace{
-    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    display: flex;
+    color: #fff;
 }
+section .interace {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    height: 40rem;
+    width: 95%;
+    border-radius: 1rem;
+}
+/* /style of section */
+
+/* Style of txt */
+.title{
+    color: #093C2D;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 1rem 1rem 1rem 3rem;
+    width:40%;
+    font-size: 2.5rem;
+}
+.p1{
+    color: #3B6654;
+    font-size: 1.1em;
+    font-weight: 300;
+    padding: 1rem 7rem 3rem 3rem;
+}
+/* /Style of txt */
+
+.components{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+/* style of img */
+.foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid #fff;
+    border-radius: 50%;
+    width: 17rem;
+    height: 17rem;
+    overflow: hidden;
+    /* box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.3); */
+}
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* /style of img */
+.p2{
+    color: #3B6654;
+    font-size: 1.1em;
+    font-weight: 300;
+    padding: 1rem 0 0 0;
+}
+/* style of buttons */
+.buttons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 100%;
+    gap: 1.5rem; 
+    margin: 0; 
+    padding: 2rem;
+}
+.buttons a {
+    display: block;
+    width: 100%; 
+    max-width: 140px;
+    text-align: center;
+}
+.btn-instagram, .btn-x, .btn-linkedin {
+    background-color: #093C2D;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%;
+}
+.btn-instagram:hover,
+.btn-x:hover,
+.btn-linkedin:hover {
+    background-color: #075E40;
+}
+/* /style of buttons */
+
+/* /Style of card */
+.card {
+    margin-left: 50px;
+    width: 400px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.card-header {
+    background: #093C2D;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+}
+.card-content {
+    padding: 15px;
+    display: none;
+    background: #fff;
+    color: #3B6654;
+}
+.card.active .card-content {
+    display: block;
+}
+/* /Style of card */
