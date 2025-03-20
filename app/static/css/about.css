@@ -64,7 +64,7 @@ section .interace {
     width: 17rem;
     height: 17rem;
     overflow: hidden;
-    margin: 15px;
+    margin: 7px;
     /* box-shadow: 3px 10px 8px rgba(0, 0, 0, 0.3); */
 }
 .foto img {
