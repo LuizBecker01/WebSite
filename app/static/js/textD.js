@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (index < texto.length) {
             elemento.innerHTML += texto.charAt(index);
             index++;
-            setTimeout(digitar, 100); // Velocidade da digitação
+            setTimeout(digitar, 220); // Velocidade da digitação
         }
     }
 

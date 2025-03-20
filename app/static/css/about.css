@@ -33,18 +33,15 @@ section .interace {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 2rem;
-    width:23%;
+    padding: 1rem 1rem 1rem 3rem;
+    width:40%;
     font-size: 2.5rem;
-    margin-top: 50px;
 }
 .p1{
     color: #3B6654;
     font-size: 1.1em;
     font-weight: 300;
-    padding: 2rem;
-    margin-right: 340px;
-    margin-bottom: 80px;
+    padding: 1rem 7rem 3rem 3rem;
 }
 /* /Style of txt */
 
@@ -68,51 +65,32 @@ section .interace {
 /* style of buttons */
 .buttons {
     display: flex;
-    width: 100%;
-    height: 100%;
+    flex-direction: column; 
     align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
+    width: 100%;
+    gap: 1rem; 
+    margin: 0; 
+    padding: 3.2rem;
 }
-.btn-instagram {
-    display: inline-block;
+
+.buttons a {
+    display: block;
+    width: 100%; 
+    max-width: 140px;
+    text-align: center;
+}
+.btn-instagram, .btn-x, .btn-linkedin {
     background-color: #093C2D;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    width: 100%;
 }
-.btn-x{
-    display: inline-block;
-    background-color: #093C2D;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-}
-.btn-linkedin{
-    display: inline-block;
-    background-color: #093C2D;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-}
-.btn-instagram:hover {
-    background-color: #075E40;
-}
+.btn-instagram:hover,
+.btn-x:hover,
 .btn-linkedin:hover {
     background-color: #075E40;
-}
-.btn-x:hover {
-    background-color: #075E40;
-}
-.linha {
-    width: 2px;
-    height: 40px; 
-    background-color: #093C2D;
 }
 /* /style of buttons */

@@ -51,7 +51,6 @@ section .interace {
 .buttons {
     display: flex;
     width: 100%;
-    height: 100%;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
@@ -88,13 +87,9 @@ section .interace {
     border-radius: 5px;
     font-weight: bold;
 }
-.btn-email:hover {
-    background-color: #075E40;
-}
+.btn-instagram:hover,
+.btn-x:hover,
 .btn-linkedin:hover {
-    background-color: #075E40;
-}
-.btn-github:hover {
     background-color: #075E40;
 }
 /* /Style of buttons */
