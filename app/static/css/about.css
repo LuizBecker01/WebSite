@@ -33,15 +33,18 @@ section .interace {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 1rem;
-    width: 77%;
-    height: 85%;
-    gap: 1rem;
+    padding: 2rem;
+    width:23%;
+    font-size: 2.5rem;
+    margin-top: 50px;
 }
 .p1{
     color: #3B6654;
     font-size: 1.1em;
     font-weight: 300;
+    padding: 2rem;
+    margin-right: 340px;
+    margin-bottom: 80px;
 }
 /* /Style of txt */
 

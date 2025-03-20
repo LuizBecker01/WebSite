@@ -31,3 +31,11 @@ background: linear-gradient(to right, #63A593, #D8F2DC);
 
 Escuro para Claro (contrastante) (#093C2D → #D8F2DC)
 background: linear-gradient(135deg, #093C2D, #D8F2DC);
+
+--------------
+
+Branco para Transparente
+background: linear-gradient(to bottom, white, transparent);
+
+Branco para Cinza Claro
+background: linear-gradient(to bottom, white, #f0f0f0);
