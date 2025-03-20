@@ -48,15 +48,6 @@ section .interace {
 /* /Style of infos */
 
 /* Style of buttons */
-/* .buttons-container {
-    margin-bottom: 200px;
-    display: flex; 
-    padding: 30px; 
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-} */
 .buttons {
     display: flex;
     width: 100%;

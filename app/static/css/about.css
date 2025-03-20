@@ -6,24 +6,61 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
-section.container{
-    height: 98vh;
+/* style of section */
+section.container {
+    min-height: 100vh;
     background: linear-gradient(to bottom, #093C2D, #3B6654, #63A593);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     color: #fff;
 }
-.container .interace{
+section .interace {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    height: 30rem;
+    width: 95%;
+    border-radius: 1rem;
+}
+/* /style of section */
+
+/* Style of txt */
+.title{
+    color: #093C2D;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 1rem;
+    width: 77%;
+    height: 85%;
+    gap: 1rem;
+}
+.p1{
+    color: #3B6654;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+/* /Style of txt */
+
+/* style of img */
+.foto {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
 }
-
-
-
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* /style of img */
 
 /* style of buttons */
 .buttons {
@@ -34,8 +71,25 @@ section.container{
     justify-content: center;
     gap: 1.5rem;
 }
-
 .btn-instagram {
+    display: inline-block;
+    background-color: #093C2D;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn-x{
+    display: inline-block;
+    background-color: #093C2D;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn-linkedin{
     display: inline-block;
     background-color: #093C2D;
     color: white;
@@ -47,3 +101,15 @@ section.container{
 .btn-instagram:hover {
     background-color: #075E40;
 }
+.btn-linkedin:hover {
+    background-color: #075E40;
+}
+.btn-x:hover {
+    background-color: #075E40;
+}
+.linha {
+    width: 2px;
+    height: 40px; 
+    background-color: #093C2D;
+}
+/* /style of buttons */
