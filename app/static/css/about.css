@@ -1,5 +1,4 @@
 @import url("header.css");
-@import url('../css/media/responsive.css');
 
 *{
     margin: 0;
@@ -22,8 +21,8 @@ section .interace {
     display: flex;
     justify-content: center;
     align-items: center;;
-    height: 40rem;
-    width: 95%;
+    height: 38rem;
+    width: 83%;
     border-radius: 1rem;
 }
 /* /style section */
@@ -82,7 +81,7 @@ section .interace {
     padding: 1rem 0 0 0;
 }
 /* style buttons */
-.buttons {
+/* .buttons {
     display: flex;
     flex-direction: column; 
     align-items: center;
@@ -110,7 +109,7 @@ section .interace {
 .btn-x:hover,
 .btn-linkedin:hover {
     background-color: #075E40;
-}
+} */
 /* /style buttons */
 
 /* /Style card */
@@ -122,6 +121,7 @@ section .interace {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: all 0.3s ease;
+    border: #093C2D solid 1px;
 }
 .card-header {
     background: #093C2D;
