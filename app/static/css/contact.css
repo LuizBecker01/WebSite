@@ -26,6 +26,25 @@ section .interace {
 }
 /* /style of section */
 
+/* Style of foto */
+.foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #093C2D;
+    border-radius: 50%;
+    width: 9rem;
+    height: 9rem;
+    overflow: hidden;
+}
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* /Style of foto */
+
 /* Style of buttons */
 .buttons {
     display: flex;
