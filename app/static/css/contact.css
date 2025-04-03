@@ -16,23 +16,29 @@ section.container {
     color: #fff;
 }
 section .interace {
+    /* background-color: none; */
     background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;;
-    height: 20rem;
-    width: 40rem;
+    height: 17rem;
+    width: 35rem;
     border-radius: 1rem;
 }
 /* /style of section */
 
-/* Style of foto */
-.foto {
+/* Style of infos */
+.infos {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    border: 2px solid #093C2D;
+    gap: 2rem;
+}
+/* /Style of infos */
+
+/* Style of foto */
+.foto {
+    border: 3px solid #093C2D;
     border-radius: 50%;
     width: 9rem;
     height: 9rem;
@@ -59,9 +65,9 @@ section .interace {
     height: 40px; 
     background-color: #093C2D;
 }
-.btn-email {
+.btn-instagram {
     display: inline-block;
-    background-color: #093C2D;
+    background: linear-gradient(135deg, #bc1888, #cc2366, #dc2743, #e6683c, #f09433 );
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -70,7 +76,7 @@ section .interace {
 }
 .btn-linkedin {
     display: inline-block;
-    background-color: #093C2D;
+    background: linear-gradient(135deg, #004182, #0077b5);
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -79,16 +85,20 @@ section .interace {
 }
 .btn-github {
     display: inline-block;
-    background-color: #093C2D;
+    background: linear-gradient(135deg, #161b22, #0969da);
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
 }
-.btn-instagram:hover,
-.btn-x:hover,
+.btn-instagram:hover{
+    opacity: 0.8;
+}
+.btn-github:hover{
+    background: linear-gradient(135deg, #0969da, #161b22);
+}
 .btn-linkedin:hover {
-    background-color: #075E40;
+    background: linear-gradient(135deg, #0077b5, #004182);
 }
 /* /Style of buttons */
